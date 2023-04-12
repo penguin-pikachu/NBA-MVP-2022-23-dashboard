@@ -1,0 +1,2082 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20222.22.0812.0353                               -->
+<workbook original-version='18.1' source-build='2022.2.1 (20222.22.0812.0353)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (NBA_MVP_race)' inline='true' name='federated.0g0vdok0mli8vp17qvblk1ckl07q' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='NBA_MVP_race' name='excel-direct.0jpho4c11v4bwk11xoxrc12fv4rn'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Garde/Desktop/NBA_MVP_race.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0jpho4c11v4bwk11xoxrc12fv4rn' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:V4:no:A1:V4:0' header='yes' outcome='6'>
+            <column datatype='string' name='Player' ordinal='0' />
+            <column datatype='integer' name='GP' ordinal='1' />
+            <column datatype='real' name='PPG' ordinal='2' />
+            <column datatype='real' name='DRPG' ordinal='3' />
+            <column datatype='real' name='ORPG' ordinal='4' />
+            <column datatype='real' name='APG' ordinal='5' />
+            <column datatype='real' name='FG%' ordinal='6' />
+            <column datatype='real' name='3 FG%' ordinal='7' />
+            <column datatype='real' name='FT %' ordinal='8' />
+            <column datatype='real' name='SPG' ordinal='9' />
+            <column datatype='real' name='BPG' ordinal='10' />
+            <column datatype='real' name='TOVG' ordinal='11' />
+            <column datatype='integer' name='O rating' ordinal='12' />
+            <column datatype='integer' name='D Rating' ordinal='13' />
+            <column datatype='real' name='eFG%' ordinal='14' />
+            <column datatype='real' name='PER' ordinal='15' />
+            <column datatype='real' name='WS' ordinal='16' />
+            <column datatype='real' name='VORP' ordinal='17' />
+            <column datatype='real' name='Box +/-' ordinal='18' />
+            <column datatype='integer' name='H2H Jokic' ordinal='19' />
+            <column datatype='integer' name='H2H Embiid' ordinal='20' />
+            <column datatype='integer' name='H2H Giannis' ordinal='21' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0jpho4c11v4bwk11xoxrc12fv4rn' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:V4:no:A1:V4:0' header='yes' outcome='6'>
+            <column datatype='string' name='Player' ordinal='0' />
+            <column datatype='integer' name='GP' ordinal='1' />
+            <column datatype='real' name='PPG' ordinal='2' />
+            <column datatype='real' name='DRPG' ordinal='3' />
+            <column datatype='real' name='ORPG' ordinal='4' />
+            <column datatype='real' name='APG' ordinal='5' />
+            <column datatype='real' name='FG%' ordinal='6' />
+            <column datatype='real' name='3 FG%' ordinal='7' />
+            <column datatype='real' name='FT %' ordinal='8' />
+            <column datatype='real' name='SPG' ordinal='9' />
+            <column datatype='real' name='BPG' ordinal='10' />
+            <column datatype='real' name='TOVG' ordinal='11' />
+            <column datatype='integer' name='O rating' ordinal='12' />
+            <column datatype='integer' name='D Rating' ordinal='13' />
+            <column datatype='real' name='eFG%' ordinal='14' />
+            <column datatype='real' name='PER' ordinal='15' />
+            <column datatype='real' name='WS' ordinal='16' />
+            <column datatype='real' name='VORP' ordinal='17' />
+            <column datatype='real' name='Box +/-' ordinal='18' />
+            <column datatype='integer' name='H2H Jokic' ordinal='19' />
+            <column datatype='integer' name='H2H Embiid' ordinal='20' />
+            <column datatype='integer' name='H2H Giannis' ordinal='21' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:V4:no:A1:V4:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Player</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Player]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Player</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_91D479385AB24CFBA2F0B17841893606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GP</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GP]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>GP</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_91D479385AB24CFBA2F0B17841893606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PPG</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PPG]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>PPG</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_91D479385AB24CFBA2F0B17841893606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DRPG</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DRPG]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>DRPG</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_91D479385AB24CFBA2F0B17841893606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ORPG</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ORPG]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>ORPG</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_91D479385AB24CFBA2F0B17841893606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>APG</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[APG]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>APG</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_91D479385AB24CFBA2F0B17841893606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FG%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FG%]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>FG%</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_91D479385AB24CFBA2F0B17841893606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3 FG%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[3 FG%]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>3 FG%</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_91D479385AB24CFBA2F0B17841893606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FT %</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FT %]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>FT %</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_91D479385AB24CFBA2F0B17841893606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SPG</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SPG]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>SPG</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_91D479385AB24CFBA2F0B17841893606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BPG</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[BPG]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>BPG</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_91D479385AB24CFBA2F0B17841893606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOVG</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TOVG]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>TOVG</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_91D479385AB24CFBA2F0B17841893606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>O rating</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[O rating]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>O rating</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_91D479385AB24CFBA2F0B17841893606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>D Rating</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[D Rating]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>D Rating</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_91D479385AB24CFBA2F0B17841893606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>eFG%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[eFG%]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>eFG%</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_91D479385AB24CFBA2F0B17841893606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PER</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PER]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>PER</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_91D479385AB24CFBA2F0B17841893606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[WS]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WS</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_91D479385AB24CFBA2F0B17841893606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VORP</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[VORP]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>VORP</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_91D479385AB24CFBA2F0B17841893606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Box +/-</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Box +/-]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Box +/-</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_91D479385AB24CFBA2F0B17841893606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>H2H Jokic</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[H2H Jokic]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>H2H Jokic</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_91D479385AB24CFBA2F0B17841893606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>H2H Embiid</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[H2H Embiid]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>H2H Embiid</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_91D479385AB24CFBA2F0B17841893606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>H2H Giannis</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[H2H Giannis]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>H2H Giannis</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_91D479385AB24CFBA2F0B17841893606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='3 point percentage' datatype='real' name='[3 FG%]' role='measure' type='quantitative' />
+      <column caption='Assists Per Game' datatype='real' name='[APG]' role='measure' type='quantitative' />
+      <column caption='Blocks per game' datatype='real' name='[BPG]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Box +/-]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[D Rating]' role='measure' type='quantitative' />
+      <column caption='Defensive Rebounds per game' datatype='real' name='[DRPG]' role='measure' type='quantitative' />
+      <column caption='Field Goal percentage' datatype='real' name='[FG%]' role='measure' type='quantitative' />
+      <column caption='Free Throw percentage' datatype='real' name='[FT %]' role='measure' type='quantitative' />
+      <column caption='Games played' datatype='integer' name='[GP]' role='measure' type='quantitative' />
+      <column caption='Offensive Rating' datatype='integer' name='[O rating]' role='measure' type='quantitative' />
+      <column caption='Offensive Rebounds per game' datatype='real' name='[ORPG]' role='measure' type='quantitative' />
+      <column datatype='real' name='[PER]' role='measure' type='quantitative' />
+      <column caption='Points Per game' datatype='real' name='[PPG]' role='measure' type='quantitative' />
+      <column caption='Steals per game' datatype='real' name='[SPG]' role='measure' type='quantitative' />
+      <column caption='Turnovers per game' datatype='real' name='[TOVG]' role='measure' type='quantitative' />
+      <column caption='Vorp' datatype='real' name='[VORP]' role='measure' type='quantitative' />
+      <column datatype='real' name='[WS]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_91D479385AB24CFBA2F0B17841893606]' role='measure' type='quantitative' />
+      <column caption='Effective Field Goal percentage' datatype='real' name='[eFG%]' role='measure' type='quantitative' />
+      <column-instance column='[3 FG%]' derivation='Sum' name='[sum:3 FG%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[APG]' derivation='Sum' name='[sum:APG:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[BPG]' derivation='Sum' name='[sum:BPG:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Box +/-]' derivation='Sum' name='[sum:Box +/-:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[D Rating]' derivation='Sum' name='[sum:D Rating:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[DRPG]' derivation='Sum' name='[sum:DRPG:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[FG%]' derivation='Sum' name='[sum:FG%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[FT %]' derivation='Sum' name='[sum:FT %:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[GP]' derivation='Sum' name='[sum:GP:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[O rating]' derivation='Sum' name='[sum:O rating:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[ORPG]' derivation='Sum' name='[sum:ORPG:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[PER]' derivation='Sum' name='[sum:PER:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[PPG]' derivation='Sum' name='[sum:PPG:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[SPG]' derivation='Sum' name='[sum:SPG:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[TOVG]' derivation='Sum' name='[sum:TOVG:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[VORP]' derivation='Sum' name='[sum:VORP:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[WS]' derivation='Sum' name='[sum:WS:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[eFG%]' derivation='Sum' name='[sum:eFG%:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:GP:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:3 FG\%:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:APG:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:BPG:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:Box +/-:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:DRPG:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:eFG\%:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:ORPG:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:FT \%:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[usr:Calculation_4080542751538569218:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[usr:Calculation_4080542751540330504:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[usr:Calculation_4080542751540596745:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[usr:Calculation_4080542751540678666:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[usr:Calculation_4080542751540756491:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:PER:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[usr:Calculation_4080542751539552260:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[usr:Calculation_4080542751539609605:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:D Rating:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:TOVG:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:WS:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:FG\%:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:SPG:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:PPG:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:VORP:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:O rating:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_91D479385AB24CFBA2F0B17841893606'>
+            <properties context=''>
+              <relation connection='excel-direct.0jpho4c11v4bwk11xoxrc12fv4rn' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:V4:no:A1:V4:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Player' ordinal='0' />
+                  <column datatype='integer' name='GP' ordinal='1' />
+                  <column datatype='real' name='PPG' ordinal='2' />
+                  <column datatype='real' name='DRPG' ordinal='3' />
+                  <column datatype='real' name='ORPG' ordinal='4' />
+                  <column datatype='real' name='APG' ordinal='5' />
+                  <column datatype='real' name='FG%' ordinal='6' />
+                  <column datatype='real' name='3 FG%' ordinal='7' />
+                  <column datatype='real' name='FT %' ordinal='8' />
+                  <column datatype='real' name='SPG' ordinal='9' />
+                  <column datatype='real' name='BPG' ordinal='10' />
+                  <column datatype='real' name='TOVG' ordinal='11' />
+                  <column datatype='integer' name='O rating' ordinal='12' />
+                  <column datatype='integer' name='D Rating' ordinal='13' />
+                  <column datatype='real' name='eFG%' ordinal='14' />
+                  <column datatype='real' name='PER' ordinal='15' />
+                  <column datatype='real' name='WS' ordinal='16' />
+                  <column datatype='real' name='VORP' ordinal='17' />
+                  <column datatype='real' name='Box +/-' ordinal='18' />
+                  <column datatype='integer' name='H2H Jokic' ordinal='19' />
+                  <column datatype='integer' name='H2H Embiid' ordinal='20' />
+                  <column datatype='integer' name='H2H Giannis' ordinal='21' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Advanced Stats'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (NBA_MVP_race)' name='federated.0g0vdok0mli8vp17qvblk1ckl07q' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0g0vdok0mli8vp17qvblk1ckl07q'>
+            <column datatype='real' name='[Box +/-]' role='measure' type='quantitative' />
+            <column datatype='real' name='[PER]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Player]' role='dimension' type='nominal' />
+            <column caption='Vorp' datatype='real' name='[VORP]' role='measure' type='quantitative' />
+            <column datatype='real' name='[WS]' role='measure' type='quantitative' />
+            <column-instance column='[Player]' derivation='None' name='[none:Player:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Box +/-]' derivation='Sum' name='[sum:Box +/-:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PER]' derivation='Sum' name='[sum:PER:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[VORP]' derivation='Sum' name='[sum:VORP:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[WS]' derivation='Sum' name='[sum:WS:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:PER:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:VORP:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:WS:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:Box +/-:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:PER:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:VORP:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:WS:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:Box +/-:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[Multiple Values]</rows>
+        <cols>([federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk] / [federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names])</cols>
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</field>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Giannis&quot;</value>
+                <value>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:Box +/-:qk]&quot;</value>
+                <value>8.5</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='1' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</field>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Giannis&quot;</value>
+                <value>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:WS:qk]&quot;</value>
+                <value>8.5999999999999996</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='2' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</field>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Giannis&quot;</value>
+                <value>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:VORP:qk]&quot;</value>
+                <value>5.4000000000000004</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='3' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</field>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Giannis&quot;</value>
+                <value>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:PER:qk]&quot;</value>
+                <value>29.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='4' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</field>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;J Embiid&quot;</value>
+                <value>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:Box +/-:qk]&quot;</value>
+                <value>9.1999999999999993</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='5' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</field>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;J Embiid&quot;</value>
+                <value>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:WS:qk]&quot;</value>
+                <value>12.300000000000001</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='6' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</field>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;J Embiid&quot;</value>
+                <value>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:VORP:qk]&quot;</value>
+                <value>6.4000000000000004</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='7' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</field>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;J Embiid&quot;</value>
+                <value>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:PER:qk]&quot;</value>
+                <value>31.399999999999999</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='8' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</field>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;N Jokic&quot;</value>
+                <value>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:Box +/-:qk]&quot;</value>
+                <value>13.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='9' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</field>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;N Jokic&quot;</value>
+                <value>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:WS:qk]&quot;</value>
+                <value>14.9</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='10' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</field>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;N Jokic&quot;</value>
+                <value>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:VORP:qk]&quot;</value>
+                <value>8.8000000000000007</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='11' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</field>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;N Jokic&quot;</value>
+                <value>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:PER:qk]&quot;</value>
+                <value>31.5</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{7219E43A-CFEE-4552-99DD-4B4C715057BC}' />
+    </worksheet>
+    <worksheet name='Basic Stats'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (NBA_MVP_race)' name='federated.0g0vdok0mli8vp17qvblk1ckl07q' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0g0vdok0mli8vp17qvblk1ckl07q'>
+            <column caption='Assists Per Game' datatype='real' name='[APG]' role='measure' type='quantitative' />
+            <column caption='Blocks per game' datatype='real' name='[BPG]' role='measure' type='quantitative' />
+            <column caption='SUM([Games played]+[Points Per game]+[Offensive Rebounds per ...' datatype='real' name='[Calculation_4080542751538569218]' role='measure' type='quantitative' user:unnamed='Basic Stats'>
+              <calculation class='tableau' formula='SUM([GP]+[PPG]+[ORPG]+[DRPG]+[APG]-[TOVG])/6' />
+            </column>
+            <column caption='Defensive Rebounds per game' datatype='real' name='[DRPG]' role='measure' type='quantitative' />
+            <column caption='Games played' datatype='integer' name='[GP]' role='measure' type='quantitative' />
+            <column caption='Offensive Rebounds per game' datatype='real' name='[ORPG]' role='measure' type='quantitative' />
+            <column caption='Points Per game' datatype='real' name='[PPG]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Player]' role='dimension' type='nominal' />
+            <column caption='Steals per game' datatype='real' name='[SPG]' role='measure' type='quantitative' />
+            <column caption='Turnovers per game' datatype='real' name='[TOVG]' role='measure' type='quantitative' />
+            <column-instance column='[Player]' derivation='None' name='[none:Player:nk]' pivot='key' type='nominal' />
+            <column-instance column='[APG]' derivation='Sum' name='[sum:APG:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[BPG]' derivation='Sum' name='[sum:BPG:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DRPG]' derivation='Sum' name='[sum:DRPG:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[GP]' derivation='Sum' name='[sum:GP:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ORPG]' derivation='Sum' name='[sum:ORPG:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PPG]' derivation='Sum' name='[sum:PPG:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SPG]' derivation='Sum' name='[sum:SPG:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TOVG]' derivation='Sum' name='[sum:TOVG:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_4080542751538569218]' derivation='User' name='[usr:Calculation_4080542751538569218:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0g0vdok0mli8vp17qvblk1ckl07q].[usr:Calculation_4080542751538569218:qk]' scope='rows' value='Overall basic score' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]' value='82' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <tooltip column='[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:GP:qk]' />
+              <tooltip column='[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:PPG:qk]' />
+              <tooltip column='[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:DRPG:qk]' />
+              <tooltip column='[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:ORPG:qk]' />
+              <tooltip column='[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:APG:qk]' />
+              <tooltip column='[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:SPG:qk]' />
+              <tooltip column='[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:BPG:qk]' />
+              <tooltip column='[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:TOVG:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Player:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Assists Per Game:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:APG:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Blocks per game:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:BPG:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Defensive Rebounds per game:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:DRPG:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>GP:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:GP:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Offensive Rebounds per game:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:ORPG:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Points Per game:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:PPG:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Steals per game:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:SPG:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Turnovers per game:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:TOVG:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#4e79a7' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[usr:Calculation_4080542751538569218:qk]</rows>
+        <cols>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</cols>
+        <mark-labels>
+          <mark-label id='39' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[usr:Calculation_4080542751538569218:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[usr:Calculation_4080542751538569218:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;N Jokic&quot;</value>
+                <value>18.583333333333336</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='40' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[usr:Calculation_4080542751538569218:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[usr:Calculation_4080542751538569218:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;J Embiid&quot;</value>
+                <value>18.333333333333332</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='41' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[usr:Calculation_4080542751538569218:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[usr:Calculation_4080542751538569218:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Giannis&quot;</value>
+                <value>17.949999999999999</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{CE3DACB2-AD64-4E52-9BC0-C5C165997125}' />
+    </worksheet>
+    <worksheet name='Defense'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (NBA_MVP_race)' name='federated.0g0vdok0mli8vp17qvblk1ckl07q' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0g0vdok0mli8vp17qvblk1ckl07q'>
+            <column datatype='integer' name='[D Rating]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Player]' role='dimension' type='nominal' />
+            <column-instance column='[Player]' derivation='None' name='[none:Player:nk]' pivot='key' type='nominal' />
+            <column-instance column='[D Rating]' derivation='Sum' name='[sum:D Rating:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:D Rating:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:D Rating:qk]</rows>
+        <cols>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</cols>
+      </table>
+      <simple-id uuid='{36A68527-0539-47DA-99A4-93D8E4D0BE4A}' />
+    </worksheet>
+    <worksheet name='Offensive Efficiency'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (NBA_MVP_race)' name='federated.0g0vdok0mli8vp17qvblk1ckl07q' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0g0vdok0mli8vp17qvblk1ckl07q'>
+            <column caption='3 point percentage' datatype='real' name='[3 FG%]' role='measure' type='quantitative' />
+            <column caption='SUM([3 point percentage]+[Field Goal percentage]+[Free Throw ...' datatype='real' name='[Calculation_4080542751539609605]' role='measure' type='quantitative' user:unnamed='Offensive Efficiency'>
+              <calculation class='tableau' formula='SUM([3 FG%]+[FG%]+[FT %]+[O rating]+[eFG%])/5' />
+            </column>
+            <column caption='Field Goal percentage' datatype='real' name='[FG%]' role='measure' type='quantitative' />
+            <column caption='Free Throw percentage' datatype='real' name='[FT %]' role='measure' type='quantitative' />
+            <column caption='Offensive Rating' datatype='integer' name='[O rating]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Player]' role='dimension' type='nominal' />
+            <column caption='Effective Field Goal percentage' datatype='real' name='[eFG%]' role='measure' type='quantitative' />
+            <column-instance column='[Player]' derivation='None' name='[none:Player:nk]' pivot='key' type='nominal' />
+            <column-instance column='[3 FG%]' derivation='Sum' name='[sum:3 FG%:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FG%]' derivation='Sum' name='[sum:FG%:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FT %]' derivation='Sum' name='[sum:FT %:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[O rating]' derivation='Sum' name='[sum:O rating:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[eFG%]' derivation='Sum' name='[sum:eFG%:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_4080542751539609605]' derivation='User' name='[usr:Calculation_4080542751539609605:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0g0vdok0mli8vp17qvblk1ckl07q].[usr:Calculation_4080542751539609605:qk]' scope='rows' value='Efficiency Score' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]' value='68' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <tooltip column='[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:FG%:qk]' />
+              <tooltip column='[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:3 FG%:qk]' />
+              <tooltip column='[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:eFG%:qk]' />
+              <tooltip column='[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:FT %:qk]' />
+              <tooltip column='[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:O rating:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Player:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>3 Fg%:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:3 FG%:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>eFG%:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:eFG%:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>FG%:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:FG%:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Ft %:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:FT %:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>O rating:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:O rating:qk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#72b966' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[usr:Calculation_4080542751539609605:qk]</rows>
+        <cols>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</cols>
+        <mark-labels>
+          <mark-label id='22' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[usr:Calculation_4080542751539609605:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[usr:Calculation_4080542751539609605:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;N Jokic&quot;</value>
+                <value>76.739999999999995</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='23' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[usr:Calculation_4080542751539609605:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[usr:Calculation_4080542751539609605:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;J Embiid&quot;</value>
+                <value>70.960000000000008</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='24' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[usr:Calculation_4080542751539609605:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+                  <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[usr:Calculation_4080542751539609605:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Giannis&quot;</value>
+                <value>64.299999999999997</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{BA68FDF8-8A41-4C6A-87B4-5F53E2E63140}' />
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (NBA_MVP_race)' name='federated.0g0vdok0mli8vp17qvblk1ckl07q' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0g0vdok0mli8vp17qvblk1ckl07q'>
+            <column caption='Assists Per Game' datatype='real' name='[APG]' role='measure' type='quantitative' />
+            <column caption='Blocks per game' datatype='real' name='[BPG]' role='measure' type='quantitative' />
+            <column caption='Defensive Rebounds per game' datatype='real' name='[DRPG]' role='measure' type='quantitative' />
+            <column caption='Games played' datatype='integer' name='[GP]' role='measure' type='quantitative' />
+            <column caption='Offensive Rebounds per game' datatype='real' name='[ORPG]' role='measure' type='quantitative' />
+            <column caption='Points Per game' datatype='real' name='[PPG]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Player]' role='dimension' type='nominal' />
+            <column caption='Turnovers per game' datatype='real' name='[TOVG]' role='measure' type='quantitative' />
+            <column-instance column='[Player]' derivation='None' name='[none:Player:nk]' pivot='key' type='nominal' />
+            <column-instance column='[APG]' derivation='Sum' name='[sum:APG:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[BPG]' derivation='Sum' name='[sum:BPG:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DRPG]' derivation='Sum' name='[sum:DRPG:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[GP]' derivation='Sum' name='[sum:GP:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ORPG]' derivation='Sum' name='[sum:ORPG:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PPG]' derivation='Sum' name='[sum:PPG:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TOVG]' derivation='Sum' name='[sum:TOVG:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:GP:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:PPG:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:ORPG:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:DRPG:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:APG:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:BPG:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:TOVG:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:GP:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:PPG:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:ORPG:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:DRPG:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:APG:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:BPG:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:TOVG:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0g0vdok0mli8vp17qvblk1ckl07q].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</rows>
+        <cols>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{331140C8-2F86-4A1D-B687-65A8296B454D}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Basic Stats'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</field>
+            <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D35D00B8-7841-4302-820E-FB99485B588F}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Offensive Efficiency'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</field>
+            <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B19FFDEF-7B86-4685-B8F0-05D4C0AC29D1}' />
+    </window>
+    <window class='worksheet' name='Defense'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</field>
+            <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Calculation_4080542751540277255:qk]</field>
+            <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+            <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[sum:D Rating:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5F171C9F-2DE3-47C7-95F5-4BF2D80282FA}' />
+    </window>
+    <window class='worksheet' name='Advanced Stats'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[:Measure Names]</field>
+            <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{4BDBDC54-9ECC-45EE-9546-0310A2AB8481}' />
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0g0vdok0mli8vp17qvblk1ckl07q].[none:Player:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{FB5068EC-564E-4A9A-933E-283C307AEB03}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Advanced Stats' width='192'>
+      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
+      qeUCHR0J/j9QdzWvTVetpgAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Basic Stats' width='192'>
+      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
+      Vf9TCbEu/vbAd85pn2i9urnd7nN6/onm5tHGZrO1O5YIBUBhGgbhsEFINzD0EMFgEIc9Hle4
+      krJjjcT1clNRXIoZe9G/fENZUDdo8gYubOkdYEbZ+/ni7CJ2BWgqz2PTjgP4DYDNvH00hqnz
+      rmP2VbPZtW0La7br9Bk6nisuHoYjOn8Zim4oQgHQSB0wjmsHjGvnsd5Mv/KayJQhxFdE54RN
+      iAiRAAhLkwAIS5MACEuTAAhLkwAIS5MACEuTAAhLkwAIS5MACEuTAAhLkwAIS5MACEuTAAhL
+      kwAIS5MACEuTAAhLkwAIS5MACEuTAAhLkwAIS5MACEuTAAhLkwAIS5MACEuTAAhLkwAIS5MA
+      CEuTAAhLkwAIS5MACEuTAAhLi3ij7JbaYwRiepGe5D6xEV9TLWVV9dhjEunXLwOPdFsXERKx
+      M00ZQQ5mf8I7q1fw+eGmk9u9tcVs3LSDhpZWaiuPUtsSilRJQkTuCqC3NGDrO+ErjbINCvfv
+      I3PylYzN8ESqFCFOilgAXCl9uCgFWlpO39rMseI2lPkxOR82ENujPzNmTSM9wYVqp1H2V0Vr
+      b11QGIbR2UWcF91lHND+WDq5UbZOIGRnxPhZLJwbS0XeVrJ3HmTBrLFo7TTK/movXcOMzhdH
+      ce4nTrSG+VzHEc2NsqMwAEmk9daw22LQNDupGYPxVBdjKnD/C42yHfZOLv8sNDRcLte57ROl
+      jbLPdRzR3Ci7vbFEqFqFGdbx+3z4gzrhYACf30/YjCFzUCq7t++k1dtC2eEDaEmZOKLzGIpu
+      KHKNso8dZEt23vFG2dt5vzKGyXOuZsC4mdidOax/fwM9Bo3nsokDsEfnL0PRDUWuUXb/MSzq
+      P6adx9xkjp5K5ujIVCLE6WSyISxNAiAsTQIgLE0CICxNAiAsTQIgLE0CICxNAiAsTQIgLE0C
+      ICxNAiAsTQIgLE0CICxNAiAsTQIgLE0CICxNAiAsTQIgLE0CICxNAiAsTQIgLE0CICxNAiAs
+      TQIgLE0CICxNAiAsTQIgLE0CICxNAiAsTQIgLE0CICxNAiAsLXIBUAYNFUf4aOVzrN1Te+ZD
+      yiBnw8v87YUPaYtYQUJEMADBhgryympJTUlAN07riKgUwWP7KNXTSIl1EZ29EkV3FbEAuHv0
+      Z0ZWFkP7pnB6Q8RQWxUbs2u4fOY4PNHZ9FF0Y517yimdorwC0sZMINkePOMhXddP9pw9W49X
+      XdcjUua5Uij8fv857ROt/XXPfRzR2bvZNM12x9KpAQjVHuLjzXtI7FdD4Q4vhSXN+NbHcOOc
+      S4hxOk89LxRqt0+w87TnRBMNDY/Hc077RGt/3XMfh/0CVfLt2Gy2dsfSqQFwpg3nnh8N/nLe
+      76/g3Q0lzJl1MW5pFCwiJEIBUNQV5/LJlj20NNVSb5axrCCJ6QtvYVDyiRJiiYuLxRPjQtoE
+      i0iJWJ/gtEEXc/Ogi8/+FE8GVy3KiEw5Qhwncw1haRIAYWkSAGFpEgBhaRIAYWkSAGFpEgBh
+      aRIAYWkSAGFpEgBhaRIAYWkSAGFpEgBhaRIAYWkSAGFpEgBhaRIAYWkSAGFpEgBhaRIAYWkS
+      AGFpEgBhaRIAYWkSAGFpEgBhaRIAYWkSAGFpEgBhaRIAYWkSAGFpEgBhaRIAYWkRbZGkjBBl
+      edk0J49jXGYCAEawhfycLygobyal30imXzqKGImliJAOn2q6r4Et7y3jyWdeprxZJ29XNlXN
+      Z+8oGG6rZ/vGDezKyeVIzannHc7ZRmvCMBZcOY/eqoTNO0uJzn6JojvqcABKstextdwF3iN4
+      dRuq5jC5ZQ3f8JOcDLvkcuZeMoTTGyIOmTibqaMHEB+fSHrfdPAFJAAiYjo8Bao5Vswl8x6k
+      5dN8QMNGC/VNobP/IE8iaR5oqThzu9PlQinFsYPZ5BQ2MWHmBBxAOBxGqS/7xpum2W5P4LAR
+      7mj5F5RCEQqd/Vi0u8/xsUabcx1HtPY7Nk2z3bF0OAD9ho5i1frVaNW1NK1fTu7WIm78RdI5
+      /ztGqI2i3K3ktyYzdeZMeiZ82Wf29L65pmlit3+9/6w9SnvSatBuvd+4jxadvTHPdRw2W3SO
+      w2bT2h1LhwOQOX4hVwY/ZceBkfi8Ia6999+Z3D/lnP+dyoM7Oaz35aq5ozi9vNMDoGkaNpvt
+      aydJtJ400P7B7orOfRxd6zXpcAAqDuVC5lTunrYQDQ3Npn3D0BVt9cc4UnKM5qPlVOpOdtGD
+      QSOGkrf7MLYhsezOzgbs9Og3mIF9kuX9WRERHQ5Ac+lu3jzayKDFC4l3/fPU2xxOYjyxOIZl
+      MRPQbA7smpPR0y6jKXRiLm/DJV3iRQR1OAA9h02m94H1vPK6zpjBPbEDfYZdzOBese08W8OT
+      1IvhSb2+9kjSsOH07WgRQnxLHQ5AddFeKtvChPOzqTriQAOyEi46SwCEiE4dDsDY+d8jKX0T
+      b27Yhu5MZ/4NNzK+A4tgITrTt/ggbDVPv7mb8TMWMGN0MiuffoKdpY3nszYhLrgOXwEqi48w
+      746fM2d4LJqaSBrN5FQ2c+lAuQqIruP/A6zb4CqZU53zAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Defense' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Offensive Efficiency' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='87' name='Sheet 5' width='192'>
+      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
+      AAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
